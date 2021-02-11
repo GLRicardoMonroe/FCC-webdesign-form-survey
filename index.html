@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <!--HEAD-->
+    <head>
+        <title>FCC Survey Form</title>
+        <link  rel="stylesheet" href="./style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    </head>
+     <!--BODY-->
+        <body>
+            <!--USER STORY #1 #2 #3-->
+            <h1 id ="title">  Compu-Palace Survey Form</h1>
+                <p id="description">Thank you for taking time to complete our survey and help us improve our service</p>
+                    <form id="survey-form">
+                        <!--USER STORY #4 #5 #6 #7 #8 #9 #10 #11-->
+                        <label class="labels" for="name" id="name-label">First Name: </label><br>
+                            <input class="form-control" type="text" id="name" name="name" placeholder="Enter your name" required><br>
+                            <hr>
+                        <label class="labels" for="email" id="email-label">Email Address: </label><br>
+                            <input class="form-control" type="email" id="email" name="email" placeholder="Enter your email" required><br>
+                            <hr>
+                        <label  class="labels" for="number" id="number-label">How many times have you visited the store?</label><br>
+                            <input class="form-control" type="number" id="number" name="number-label" placeholder="Enter how many times" min="1" max="10" required><br>
+                            <hr>
+                        <label  class="labels" for="dropdown"> How satisfied were you today with our service? </label><br>
+                        <!--USER STORY #12-->
+                        <select name="satisfaction" id="dropdown" class="form-control">
+                            <option value ="">Select Satisfaction</option>
+                            <option value="very satisfied">Super Satisfied</option>
+                            <option value="satisfied">Satisfied</option>
+                            <option value="OK">OK</option>
+                            <option value="disatisfied">Disatisfied</option>
+                            <option value="very disatisfied">Very Disatisfied</option>
+                        </select><br>   
+                        <!--USER STORY #13-->
+                        <hr>
+                        <label class="labels" for="scores"> How helpful was the staff?</label><br>
+                                <input type="radio" id="very-helpful" name="score" value="very helpful">
+                            <label  for="score"> Very Helpful</label><br>
+                                <input  type="radio" id="helpful" name="score" value="helpful">
+                            <label   for="score"> Helpful</label><br>
+                                <input type="radio" id="ok" name="score" value="OK">
+                            <label  for="score"> Ok</label><br>
+                                <input type="radio" id="unhelpful" name="score" value="unhelpful">
+                            <label  for="score"> Unhelpful</label><br>
+                                <input type="radio" id="very unhelpful" name="score" value="very unhelpful">
+                            <label  for="score">Very Unhelpful</label><br>
+                        <hr>                     
+                        <!--USER STORY #14-->
+                        <label class="labels" for="products"> What other products would you like to see us offer?</label><br>
+                        <input type="checkbox" id="Asus" name="Asus" value="Asus">
+                            <label for="Asus">Asus</label><br>
+                        <input type="checkbox" id="Dell" name="Dell" value="Dell">
+                            <label for="Dell">Dell</label><br>                        
+                        <input type="checkbox" id="Toshiba" name="Toshiba" value="Toshiba">
+                            <label for="Toshiba">Toshiba</label><br>
+                        <input type="checkbox" id="Acer" name="Acer" value="Acer">
+                            <label for="Acer">Acer</label><br>
+                        <input type="checkbox" id="Google" name="Google" value="Google">
+                            <label for="Google">Google</label><br>
+                        <input type="checkbox" id="Lenovo" name="Lenovo" value="Lenovo">
+                            <label for="Lenovo">Lenovo</label><br>
+                        <input type="checkbox" id="Apple" name="Apple" value="Apple">
+                            <label for="Apple">Apple</label><br>
+                        <!--USER STORY #15-->
+                        <hr>
+                        <label class="labels" for="comments">Any Comments or Sugestions?</label><br>    
+                            <textarea id="comments" class="form-control" name="comments" rows="4" cols="50" placeholder="Enter you comment or suggestion here"></textarea>
+                            <br>
+                        <!--USER STORY #16-->
+                        <button id="submit" type="submit" form="survey-form" value="submit">Submit</button>    
+                    </form>
+                        <h2> Thank You for your feedback ! </h2>
+        </body>
+</html>

@@ -1,0 +1,134 @@
+body{
+  background-image: url(https://wallpaperaccess.com/full/922966.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1{
+  color:#57007e;
+  font-family:'Abril Fatface', cursive;
+  text-align: center;
+  letter-spacing: 0.1cm;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#description, h2{  
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  color: #57007e;
+}
+
+#survey-form{
+  background-color: #D8BFD8;
+  padding: 2.5rem 2.0rem;
+  border-radius: 25px;
+  font-size: 20px;
+  font-family: 'Teko', sans-serif;
+  max-width: 45%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form-control:focus{
+  border-color:#440063;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #7300a7;
+}
+
+#submit{
+  transition-duration:0.4s;
+  font-family: serif;
+  background-color:#7300a7;
+  border: none;
+  color: #ddd;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  width: 28%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#submit:hover{
+  background-color: #ffe9ec;
+  color: #7300a7;
+}
+
+footer{
+  background-color: #440063;
+  height: 20px;
+  color: white;
+  border-radius: 40px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input[type=text], select {
+  background-color:#ffe9ec;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #8b00c9;
+  border-radius: 15px;
+  box-sizing: border-box; 
+}
+
+input[type=email], select {
+  background-color:#ffe9ec;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #8b00c9;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+input[type=number], select {
+  background-color:#ffe9ec;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #8b00c9;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #8b00c9;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color:#ffe9ec;
+}
+
+.labels{
+  font-size: 25px;
+  color: #301934;
+}
+
+input[type=checkbox], input[type=radio] {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  bottom: 1px;
+}
+hr{  
+    border-top: 2px dashed black;
+}
+
